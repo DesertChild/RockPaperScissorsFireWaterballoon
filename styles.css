@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: aliceblue;
+    padding: 20px;
+
+}
+
+
+
+header > h1{
+    color: darkred;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+body{
+    background-color: indigo;
+}
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    background-color: darkred;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+.score-board > .badge{
+    background-color: blueviolet;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+.score-board > #user-label{
+    position: absolute;
+    top: 30px;
+    left: -20px ;
+}
+.score-board > #computer-label{
+    position: absolute;
+    top: 30px;
+    right: -27px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result > p{
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bolder;
+}
+
+.choices{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.choice{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    background: black;
+    cursor: pointer;
+}
+
+#Action-message{
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-size: large;
+}
+.green-glow{
+    border : 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border : 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow{
+    border : 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+
+
+
+
+
+
+
+
